@@ -1,0 +1,32 @@
+{
+  "name": "trip-planner-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node seed.js",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robschroeder333/trip-planner-static.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robschroeder333/trip-planner-static/issues"
+  },
+  "homepage": "https://github.com/robschroeder333/trip-planner-static#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "nunjucks": "^3.0.0",
+    "pg": "^6.1.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.30.0",
+    "volleyball": "^1.4.1"
+  }
+}
